@@ -1,0 +1,98 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex: 0.7;  
+    color: white;
+}
+
+.chat_header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.chat_header_left{
+    display: flex;
+    align-items: center;
+}
+
+.chat_header_left > h5 {
+    margin-left:  10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.chat_body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.chat_body > .message_header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.message_header > .MuiAvatar-root{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.message_header > h3{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.chat_footer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chat_footer > .MuiSvgIcon-root{
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.chat_footer > .MuiSvgIcon-root:hover{
+   color: yellow;
+}
+
+.chat_footer > form > input{
+    padding: 10px;
+    margin-left: 5px;
+    border: none;
+    background-color: rgb(75,75,75 );
+    border-radius : 30px;
+    outline: none;
+    color: white;
+    width: 97%;
+    margin-left: 5px;
+}
+
+.chat_footer > form > button {
+    display: none;
+}
+
+.chat_footer > form {
+    flex: 1;
+}
+
+.footer_icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer_icons > .MuiSvgIcon-root{
+    font-size: xx-large;
+}
+
+.footer_icons > .MuiSvgIcon-root:hover{
+    color: aqua;
+    cursor: pointer;
+}
